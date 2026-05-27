@@ -1,0 +1,24 @@
+{
+  "id": "com.vibe.sprinklers",
+  "name": "VIBE SPRINKLERS",
+  "version": "1.0.0",
+  "main": "index.html",
+  "manifestVersion": 5,
+  "host": [
+    {
+      "app": "AE",
+      "minVersion": "22.0"
+    }
+  ],
+  "entrypoints": [
+    {
+      "type": "panel",
+      "id": "vibePanel",
+      "label": {
+        "default": "Vibe Sprinklers"
+      },
+      "minimumSize": {"width": 220, "height": 350},
+      "preferredSize": {"width": 250, "height": 450}
+    }
+  ]
+}
